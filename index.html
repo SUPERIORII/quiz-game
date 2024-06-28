@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div class="general-container">
+
+        <div class="container">
+                <div class="welcome-page-wrapper">
+                    <div class="wrapper">
+                        <img  class="logo" src="./logo-bg-remove.png" alt="">
+        
+                        <h1 class="quiz-app-title">Quiz App</h1>
+                        <hr>
+            
+                        <p class="app-description">Test your knowledge with this app!</p>
+            
+                        <button class="play-now-btn">Play Now!</button>
+                    </div>
+                </div>
+        
+                <section class="category-wrapper">
+                    <h1 class="category-description">Choose a Category</h1>
+        
+                    <div class="category-list">
+                        <div class="html" id="category">HTMl Questions</div>
+                        <div class="css" id="category">CSS Questions</div>
+                        <div class="javascript" id="category">JavaScript Questions</div>
+                        <div class="general-knowledge" id="category">General Knowledge</div>
+                    </div>
+                </section>
+        </div>
+
+        <section class="main-container">
+            <header class="header">
+                <div class="quiz-title">Awesome JavaScript Quiz</div>
+                <div class="timer">
+                    time left:
+                    <div class="time">0</div>
+                </div>
+            </header>
+
+            <div class="timeline-update"></div>
+
+
+            <main class="main-wrapper">
+                <h1 class="question">What does HTML stands for?</h1>
+                <div class="options-list">
+                    <!--
+                    <div class="option wrong">Hyper text Preprocessor</div>
+                    <div class="option correct">Hyper text Markup language</div>
+                    <div class="option">Hyper text multiple language</div>
+                    <div class="option">Hyper text Multi language</div>
+                    -->
+                </div>
+                
+            </main>
+
+            <footer class="footer-wrapper">
+                <div class="question-sum">
+                   <span class="current-qestion-num">1</span> of <span class="total-question-num">5</span>Questions
+                </div>
+
+                <div class="new-question-btn">
+                    <button class="next-btn">Next Questions</button>
+                </div>
+            </footer>
+        </section>
+    </div>
+
+</body>
+</html>

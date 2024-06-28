@@ -1,0 +1,234 @@
+
+{
+    "html": {
+    "q1": {
+    "question": "What is the correct syntax to write an HTML comment?",
+    "choices": {
+    "a": "<!--comment-->",
+    "b": "//comment",
+    "c": "#comment",
+    "d": "/*comment*/"
+    },
+    "answer":"<!--comment-->"
+    },
+    "q2": {
+    "question": "What is the function of the HTML style attribute?",
+    "choices": {
+    "a": "it is used to add style to an HTML element.",
+    "b": "it is use to uniquely identify specific styles of the element.",
+    "c": "Both A and B.",
+    "d": "None of the above."
+    },
+    "answer": "it is used to add style to an HTML element"
+    },
+    "q3": {
+    "question": "What is the effect of the <b> tag?",
+    "choices": {
+    "a": "it converts the text within it to bold.",
+    "b": "it is used to write black colored font.",
+    "c": "It is used to change the font size",
+    "d": "None of the above"
+    },
+    "answer": "it converts the text within it to bold."
+    },
+    "q4": {
+    "question": "What is the select tag used for?",
+    "choices": {
+    "a": "Creates a combo box.",
+    "b": "Select some attributes and changes their styles.",
+    "c": "Changes the text font.",
+    "d": "None of the above"
+    },
+    "answer": "Creates a combo box."
+    },
+    "q5": {
+    "question": "What is the smallest header in HTML by default?",
+    "choices": {
+    "a": "h1",
+    "b": "h2",
+    "c": "h6",
+    "d": "h4"
+    },
+    "answer": "h6"
+    }
+
+    },
+
+    "css": {
+    "q1": {
+    "question": "What is CSS?",
+    "choices": {
+        "a": "CSS is designed to separate the presentation and content, including layout, colors, and fonts",
+        "b": "CSS is the language used to style the HTML documents",
+        "c": "All of the mentioned",
+        "d": "CSS is a style sheet language"
+    },
+    "answer": "CSS is the language used to style the HTML documents",
+    "explanation" : " CSS is a style sheet language that stands for Cascading Style Sheet and is used to style HTML documents. CSS is mainly designed to separate the presentation and content, including layout, colors, and fonts."
+    },
+    "q2": {
+    "question": "Which of the following tag is used to embed css in html page?",
+    "choices": {
+        "a": "<css>",
+        "b": "<!DOCTYPE html>",
+        "c": "<script>",
+        "d": " <style>"
+    },
+    "answer": "<!DOCTYPE html>",
+    "explanation": "<style> </style> tag is used to embed CSS in HTML page, while <script> </script> is used to embed JS in HTML. <!DOCTYPE html> is HTML5 declaration."
+    },
+    "q3": {
+    "question": "Which of the following CSS selectors are used to specify a group of elements?",
+    "choices": {
+        "a": "tag",
+        "b": "id",
+        "c": "class",
+        "d": "both class and tag"
+    },
+    "answer": "both class and tag",
+    "explanation": ""
+    },
+    "q4": {
+    "question": " Which of the following type of HTML tag is used to define an internal style sheet?",
+    "choices": {
+        "a": "<script>",
+        "b": "<link>",
+        "c": "<class>",
+        "d": "<style>"
+    },
+    "answer": "<style>",
+    "explanation": "<style> tag is used to define an internal style sheet in HTML document."
+    },
+    "q5": {
+    "question": " Which of the following CSS property is used to make the text bold?",
+    "choices": {
+        "a": "text-docoration: bold",
+        "b": "font-weight: bold",
+        "c": "font-style: bold",
+        "d": "text-align: bold"
+    },
+    "answer": "text-align: bold",
+    "explanation": "The font-weight property is used for setting the thickness and boldness of the font. It is used to define the weight of the text. The available weight depends on the font-family, which is used by the browser."
+    }
+
+    },
+
+    "js": {
+    "q1": {
+    "question": "What is JavaStrict?",
+    "choices": {
+        "a": "Javastrict is a programming language that is used to manupulate feature of an HTML document.designed",
+        "b": "CSS is the language used to style the HTML documents",
+        "c": "All of the mentioned",
+        "d": "CSS is a style sheet language"
+    },
+    "answer": "b",
+    "explanation" : " CSS is a style sheet language that stands for Cascading Style Sheet and is used to style HTML documents. CSS is mainly designed to separate the presentation and content, including layout, colors, and fonts."
+    },
+    "q2": {
+    "question": "Which of the following tag is used to embed javastrict in html page?",
+    "choices": {
+        "a": "<css>",
+        "b": "<!DOCTYPE html>",
+        "c": "<script>",
+        "d": " <style>"
+    },
+    "answer": "b",
+    "explanation": "<style> </style> tag is used to embed CSS in HTML page, while <script> </script> is used to embed JS in HTML. <!DOCTYPE html> is HTML5 declaration."
+    },
+    "q3": {
+    "question": "Which of the following javastrict selectors are used to specify a group of elements?",
+    "choices": {
+        "a": "tag",
+        "b": "id",
+        "c": "class",
+        "d": "both class and tag"
+    },
+    "answer": "d",
+    "explanation": ""
+    },
+    "q4": {
+    "question": " Which of the following type of HTML tag is used to define an internal style sheet?",
+    "choices": {
+        "a": "<script>",
+        "b": "<link>",
+        "c": "<class>",
+        "d": "<style>"
+    },
+    "answer": "d",
+    "explanation": "<style> tag is used to define an internal style sheet in HTML document."
+    },
+    "q5": {
+    "question": " Which of the following CSS property is used to make the text bold?",
+    "choices": {
+        "a": "text-docoration: bold",
+        "b": "font-weight: bold",
+        "c": "font-style: bold",
+        "d": "text-align: bold"
+    },
+    "answer": "b",
+    "explanation": "The font-weight property is used for setting the thickness and boldness of the font. It is used to define the weight of the text. The available weight depends on the font-family, which is used by the browser."
+    }
+
+    },
+    
+    "all": {
+    "q1": {
+    "question": "What is JavaStrict?",
+    "choices": {
+        "a": "CSS is designed to separate the presentation and content, including layout, colors, and fonts",
+        "b": "CSS is the language used to style the HTML documents",
+        "c": "All of the mentioned",
+        "d": "CSS is a style sheet language"
+    },
+    "answer": "b",
+    "explanation" : " CSS is a style sheet language that stands for Cascading Style Sheet and is used to style HTML documents. CSS is mainly designed to separate the presentation and content, including layout, colors, and fonts."
+    },
+    "q2": {
+    "question": "Which of the following tag is used to embed javastrict in html page?",
+    "choices": {
+        "a": "<css>",
+        "b": "<!DOCTYPE html>",
+        "c": "<script>",
+        "d": " <style>"
+    },
+    "answer": "b",
+    "explanation": "<style> </style> tag is used to embed CSS in HTML page, while <script> </script> is used to embed JS in HTML. <!DOCTYPE html> is HTML5 declaration."
+    },
+    "q3": {
+    "question": "Which of the following javastrict selectors are used to specify a group of elements?",
+    "choices": {
+        "a": "tag",
+        "b": "id",
+        "c": "class",
+        "d": "both class and tag"
+    },
+    "answer": "d",
+    "explanation": ""
+    },
+    "q4": {
+    "question": " Which of the following type of HTML tag is used to define an internal style sheet?",
+    "choices": {
+        "a": "<script>",
+        "b": "<link>",
+        "c": "<class>",
+        "d": "<style>"
+    },
+    "answer": "d",
+    "explanation": "<style> tag is used to define an internal style sheet in HTML document."
+    },
+    "q5": {
+    "question": " Which of the following CSS property is used to make the text bold?",
+    "choices": {
+        "a": "text-docoration: bold",
+        "b": "font-weight: bold",
+        "c": "font-style: bold",
+        "d": "text-align: bold"
+    },
+    "answer": "b",
+    "explanation": "The font-weight property is used for setting the thickness and boldness of the font. It is used to define the weight of the text. The available weight depends on the font-family, which is used by the browser."
+    }
+
+    }
+}
+
