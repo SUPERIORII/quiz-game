@@ -15,6 +15,10 @@
     --color-border: blue;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -191,7 +195,7 @@ hr {
 
 .options-list {
     padding: 10px;
-    position: relative;
+    
 }
 
 .option {
@@ -203,37 +207,24 @@ hr {
     background-color:var(--color-option);
     border-radius: 7px;
     cursor: pointer;
+    position: relative;
 }
 
-.check-fail-btn {
-    width: 30px;
-    height: 30px;
+.check-icon, .fail-icon {
+    width: 25px;
+    height: 25px;
     position: absolute;
-    transform: translate(-20px, -25px);
     right: 0;
-   
+    top: 10px;
 }
 
-
-.check-btn {
+.check-icon {
     color: green;
-    display: none;
 }
 
-.fail-btn {
-    color: red;
-    display: none;
+.fail-icon {
+    color: red; 
 }
-
-.check-fail-btn.check .check-btn {
-    display: block;
-}
-.check-fail-btn.fail .fail-btn {
-    display: block;
-}
-
-
-
 
 
 .option.wrong {
